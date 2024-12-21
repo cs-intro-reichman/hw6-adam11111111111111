@@ -18,7 +18,7 @@ public class Editor3 {
 		int n = Integer.parseInt(args[2]);
 		Color[][] sourceImage = Runigram.read(source);
 		Color[][] targetImage = Runigram.read(target);
-		Runigram.setCanvas(sourceImage);
+		Runigram.setCanvas(targetImage);
 		Runigram.morph(sourceImage, targetImage, n);
 	}
 }
